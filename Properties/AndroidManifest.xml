@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="19" android:versionName="1.33" package="com.duvsoft.stylist" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="20" android:targetSdkVersion="22" />
+	<uses-feature android:name="android.hardware.type.watch" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<application android:label="STY-LIST" android:theme="@style/AppTheme" android:icon="@drawable/icon">
+		<activity android:name="android.support.wearable.activity.ConfirmationActivity" />
+	</application>
+</manifest>

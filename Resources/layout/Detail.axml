@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtDetailListType"
+            android:layout_width="@dimen/list_type_layout_size"
+            android:layout_height="@dimen/list_type_layout_size"
+            android:layout_margin="5dip"
+            android:gravity="center_horizontal"
+            android:background="@drawable/circle_blue_flat"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/list_type_text_size" />
+        <TextView
+            android:id="@+id/txtDetailFullName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="5dip"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/name_text_size" />
+        <TextView
+            android:id="@+id/txtDetailScheduleDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:gravity="center_horizontal"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/time_text_size" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnDetailStart"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_size"
+                android:layout_marginRight="-8dip"
+                android:background="@color/wl_green"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Start"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/button_text_size" />
+            <Button
+                android:id="@+id/btnDetailCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_size"
+                android:layout_margin="5dip"
+                android:background="@color/wl_red"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Cancel"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/button_text_size" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtDetailStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:gravity="center_horizontal"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/status_text_size" />
+    </LinearLayout>
+</android.support.wearable.view.BoxInsetLayout>

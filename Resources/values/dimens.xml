@@ -1,0 +1,31 @@
+﻿<resources>
+  <!-- List -->
+  <dimen name="list_item_layout_height">30dip</dimen>
+  <dimen name="list_item_text_size">14sp</dimen>
+
+  <!-- Circle -->
+  <dimen name="circle_size">50dip</dimen>
+  <dimen name="circle_border_width">1dip</dimen>
+  <dimen name="small_circle_radius">15dip</dimen>
+  <dimen name="big_circle_radius">20dip</dimen>
+  <dimen name="circle_pressed_radius">25dip</dimen>
+  <dimen name="circle_text_size">14sp</dimen>
+  
+  <!-- List Type TextView -->
+  <dimen name="list_type_layout_size">50dip</dimen>
+  <dimen name="list_type_text_size">30sp</dimen>
+  
+  <!-- FullName TextView -->
+  <dimen name="name_text_size">15sp</dimen>
+  
+  <!-- Schedule Date/Timer TextView -->
+  <dimen name="time_text_size">25sp</dimen>
+
+  <!-- Button -->
+  <dimen name="button_size">50dip</dimen>
+  <dimen name="large_button_size">70dip</dimen>
+  <dimen name="button_text_size">8sp</dimen>
+  
+  <!-- Status TextView -->
+  <dimen name="status_text_size">15sp</dimen>
+</resources>

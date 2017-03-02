@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <android.support.wearable.view.DelayedConfirmationView
+            android:id="@+id/delayed_confirm"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:src="@drawable/circle_confirm_cancel"
+            android:layout_marginTop="20dip"
+            app:circle_border_color="@color/wl_lightblue"
+            app:circle_border_width="4dip"
+            app:circle_radius="30dip" />
+        <TextView
+            android:id="@+id/delayed_confirm_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:gravity="center"
+            android:textSize="20dip"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/text_color"
+            android:text="Confirming..." />
+    </LinearLayout>
+</android.support.wearable.view.BoxInsetLayout>

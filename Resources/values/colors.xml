@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="wl_blue">#4DB9D5</color>
+  <color name="wl_lightblue">#ADD8E6</color>
+  <color name="wl_green">#BEE22A</color>
+  <color name="wl_red">#D31577</color>
+  <color name="wl_orange">#E96522</color>
+  <color name="wl_yellow">#ECE623</color>
+  <color name="wl_gray">#B6BDBF</color>
+  <color name="text_color">#FFFFFFFF</color>
+  <color name="border_color">#FFFFFFFF</color>
+</resources>
